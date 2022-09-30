@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Outfit:wght@200;400;500;800&display=swap');
+
+.barra_busqueda {
+    padding-right: 15px;
+    background-color: #38bc46;
+    text-align: right;
+}
+
+input {
+    width: 15%;
+    margin: 7px 5px 7px;
+    padding: 5px;
+    border: 1px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: grey;
+}
+
+input:focus {
+    outline: none;
+}
+
+.logo{
+    width: 85px;
+    border-radius: 40px;
+}
+
+.nav__logo{
+    width: 60px;
+}
+
+/* #menu {
+    background-color: whitesmoke;
+} */
+
+#menu ul {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+#menu li {
+    text-align: center;
+    display: inline;
+    margin: 65px;
+}
+
+.barra__nav{
+    margin-top: 50px;
+    margin-bottom: 50;
+}
+
+#main-body {
+    background-image: url(/sources/img/backround.png);
+    background-size: 100%;
+    padding: 30px;
+}
+
+.main__silvi {
+    font-family: "Itim", sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.title__silvi{
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    letter-spacing: 20px;
+}
+
+.title__sections{
+    font-family: "Acme", sans-serif;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    letter-spacing: 20px;
+}
+
+.parrafo__index{
+    font-size: 20px;
+    letter-spacing: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.parrafo__historia{
+    font-size: 20px;
+    letter-spacing: 10px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.cliente{
+    text-decoration: underline;
+    font-size: 28px;
+}
+
+.parrafo__productos{
+    font-size: 20px;
+    letter-spacing: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.fotos__main {
+    margin: 0;
+    padding: 0;
+    display: flex   ;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.fotos__image{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border-style: outset;
+    margin: 20px;
+}
+
+.fotos__galeria{
+    width: 230px;
+    height: 230px;
+    border-radius: 15px;
+    border-style: outset;
+    margin: 5px;
+}
+
+.detalle__producto{
+    list-style: none;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 130px;
+    font-family: "Itim", sans-serif;
+    font-size: 20px;
+}
+
+.sabores{
+    font-family: "Itim", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sabores--titulo{
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.tabla__sabores{
+    margin: auto;
+    border-style: solid;
+    border-color: white;
+    border-collapse: separate;
+    border-spacing: 30px 20px;
+    font-style: italic;
+}
+
+
+.redes__main {
+    font-family: "Itim", sans-serif;
+    font-size: 20px;
+    letter-spacing: 10px;
+    padding-left: 80px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.formulario{
+    font-family: "Itim", sans-serif;
+    width: 450px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    box-shadow: 5px 15px 50px #000;
+    /* background-color: rgb(86, 184, 86); */
+    
+}
+
+.form{
+    border: none;
+    color: black;
+}
+
+.form_area{
+    width: 90%;
+    padding: 10px;
+} 
+
+.button{
+    font-family: "Acme", sans-serif;
+    letter-spacing: 3px;
+    background-color: #9b5377;
+    color: white;
+    margin-left: 170px;
+}
+
+.icons{
+    width: 40px;
+    padding-left: 60px;
+}
+
+footer {
+    font-family: "Itim", sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    color: white    ;
+    text-align: center;
+    background-color: #38bc46;
+    padding: 7px;
+    letter-spacing: 3px;
+    
+}
